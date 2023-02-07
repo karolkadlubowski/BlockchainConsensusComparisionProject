@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <UserSecretsId>dotnet-BKiZA-D8CCA019-1CE8-42BD-9915-CCE0B8E20B09</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BKiZA.Shared\BKiZA.Shared.csproj" />
+    </ItemGroup>
+</Project>

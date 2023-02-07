@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <UserSecretsId>dotnet-BKiZA.Sandbox-8F06304C-3C96-482F-8FBE-4F5940BD2828</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BKiZA.ProofOfStake\BKiZA.ProofOfStake.csproj" />
+        <ProjectReference Include="..\BKiZA.ProofOfWork\BKiZA.ProofOfWork.csproj" />
+        <ProjectReference Include="..\BKiZA.Shared\BKiZA.Shared.csproj" />
+    </ItemGroup>
+</Project>
